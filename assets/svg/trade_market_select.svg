@@ -1,0 +1,8 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="white"/>
+<rect x="22" y="22" width="20" height="20" rx="4" transform="rotate(-180 22 22)" fill="#292C33"/>
+<rect x="22" y="22" width="20" height="20" rx="4" transform="rotate(-180 22 22)" fill="white" fill-opacity="0.08"/>
+<path opacity="0.9" d="M15 7L17 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path opacity="0.9" d="M11 12L17 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path opacity="0.9" d="M7 17L17 17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

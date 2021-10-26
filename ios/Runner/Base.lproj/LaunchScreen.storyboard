@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ydg-fD-yQy"/>
+                        <viewControllerLayoutGuide type="bottom" id="xbc-2k-c8Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="YRO-k0-Ey4">
+                                <rect key="frame" x="193" y="251.33333333333337" width="42" height="70"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="LaunchTitle" translatesAutoresizingMaskIntoConstraints="NO" id="16D-uZ-TKI">
+                                <rect key="frame" x="160.66666666666666" y="803.33333333333337" width="106.99999999999997" height="19.666666666666629"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="thin"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="LaunchSubTitle" translatesAutoresizingMaskIntoConstraints="NO" id="JbA-3t-gZd">
+                                <rect key="frame" x="128.33333333333331" y="831.66666666666663" width="171.33333333333331" height="13.333333333333371"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="thin"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.074509803921568626" green="0.074509803921568626" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="JbA-3t-gZd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3y7-YE-oNu"/>
+                            <constraint firstAttribute="bottom" secondItem="JbA-3t-gZd" secondAttribute="bottom" constant="81" id="5iK-0n-vGw"/>
+                            <constraint firstItem="16D-uZ-TKI" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.25" id="BbK-cM-XSi"/>
+                            <constraint firstItem="YRO-k0-Ey4" firstAttribute="topMargin" secondItem="Ze5-6b-2t3" secondAttribute="bottom" multiplier="0.28" id="BxH-kZ-2UI"/>
+                            <constraint firstAttribute="bottom" secondItem="16D-uZ-TKI" secondAttribute="bottom" constant="103" id="KfK-gp-mEY"/>
+                            <constraint firstItem="16D-uZ-TKI" firstAttribute="centerX" secondItem="JbA-3t-gZd" secondAttribute="centerX" id="QRV-R2-IIQ"/>
+                            <constraint firstItem="JbA-3t-gZd" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.4" id="ceD-eY-gyN"/>
+                            <constraint firstItem="YRO-k0-Ey4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="w1D-dI-B63"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75.700934579439249" y="250.75593952483803"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchImage" width="42.333332061767578" height="70.333335876464844"/>
+        <image name="LaunchSubTitle" width="170.33332824707031" height="13.666666984558105"/>
+        <image name="LaunchTitle" width="111.33333587646484" height="19.333333969116211"/>
+    </resources>
+</document>

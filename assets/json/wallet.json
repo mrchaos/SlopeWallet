@@ -1,0 +1,68 @@
+
+{
+  "data": [
+    {
+      "name": "BTC",
+      "icon": "assets/svg/coin_btc.svg",
+      "balance": "12.87293817",
+      "usd": "12.87293817",
+      "thumbAddress": "0x16bC...92Ce"
+    },
+    {
+      "name": "AIC",
+      "icon": "assets/svg/coin_AIC.svg",
+      "balance": "15.87293817",
+      "usd": "15.87293817",
+      "thumbAddress": "0x16bC...92Ce"
+    },{
+      "name": "BPS",
+      "icon": "assets/svg/coin_BPS.svg",
+      "balance": "18.87293817",
+      "usd": "18.87293817",
+      "thumbAddress": "0x16bC...92Ce"
+    },{
+      "name": "CRP",
+      "icon": "assets/svg/coin_CRP.svg",
+      "balance": "21.87293817",
+      "usd": "21.87293817",
+      "thumbAddress": "0x16bC...92Ce"
+    },{
+      "name": "DFO",
+      "icon": "assets/svg/coin_DFO.svg",
+      "balance": "30.87293817",
+      "usd": "30.87293817",
+      "thumbAddress": "0x16bC...92Ce"
+    },{
+      "name": "USDT",
+      "icon": "assets/svg/coin_USDT.svg",
+      "balance": "99.87293817",
+      "usd": "99.87293817",
+      "thumbAddress": "0x16bC...92Ce"
+    },{
+      "name": "XLM",
+      "icon": "assets/svg/coin_XLM.svg",
+      "balance": "67.87293817",
+      "usd": "67.87293817",
+      "thumbAddress": "0x16bC...92Ce"
+    },{
+      "name": "XRP",
+      "icon": "assets/svg/coin_XRP.svg",
+      "balance": "88.87293817",
+      "usd": "88.87293817",
+      "thumbAddress": "0x16bC...92Ce"
+    },{
+      "name": "ETH",
+      "icon": "assets/svg/coin_eth.svg",
+      "balance": "36.87293817",
+      "usd": "36.87293817",
+      "thumbAddress": "0x16bC...92Ce"
+    }, {
+      "name": "TRX",
+      "icon": "assets/svg/coin_trx.svg",
+      "balance": "45.87293817",
+      "usd": "45.87293817",
+      "thumbAddress": "0x16bC...92Ce"
+    }
+  ]
+}
+
